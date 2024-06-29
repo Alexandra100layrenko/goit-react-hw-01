@@ -12,7 +12,6 @@ export default function Profile ({userData:{name, tag, location, image, stats}})
                 <p>{tag}</p>
                 <p>{location}</p>
             </div>
-
             <ul>
                 <li>
                 <span>Followers</span>
@@ -28,5 +27,5 @@ export default function Profile ({userData:{name, tag, location, image, stats}})
                 </li>
             </ul>
         </div>
-    )
+    );
 }
