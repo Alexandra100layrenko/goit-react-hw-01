@@ -1,13 +1,14 @@
 import FriendListItem from '../FriendListItem/FriendListItem';
-import styles from '../FriendList/FriendList.module.css';
+import styles from './FriendList.module.css';
 
-
-export default function FriendList({avatar, name, isOnline}){
-    return(
-        <div>
-            <img src="{avatar}" alt="Avatar" width="48" />
-            <p>{name}</p>
-            <p>{isOnline ? "Online" : "Offline"}</p>
-        </div>
-    );
+export default function FriendList({friends}) {
+  return (
+    <ul className={styles.friendList}>
+      {friends.map(friend => (
+        <li key={friend.id}>
+          <FriendListItem friend={friend} />
+        </li>
+      ))}
+    </ul>
+  );
 }
