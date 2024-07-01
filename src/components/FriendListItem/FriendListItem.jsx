@@ -12,7 +12,7 @@ export default function FriendListItem({friend: {avatar, name, isOnline}, }) {
     <div className={styles.item}>
       <img src={avatar} alt="User avatar" className={styles.avatar} width="60" />
       <p className={styles.name}>{name}</p>
-      <p className={styles.status}>{isOnline ? "Online" : "Offline"}</p>
+      <p  className={itemClsx}>{isOnline ? "Online" : "Offline"}</p>
     </div>
   );
 }
