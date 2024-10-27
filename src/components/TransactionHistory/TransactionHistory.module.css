@@ -1,0 +1,17 @@
+/* TransactionHistory.module.css */
+
+.transactionTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.transactionTable th, .transactionTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.transactionTable th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
