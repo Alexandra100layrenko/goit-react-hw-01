@@ -1,17 +1,19 @@
-/* TransactionHistory.module.css */
-
 .transactionTable {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
 }
-
+    
+.transactionTable thead {
+    background-color: #393838;
+    color: #ffffff;
+}
+    
 .transactionTable th, .transactionTable td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
+    border: 2px solid #1e1e1ebb;
+    text-align: center;
 }
-
-.transactionTable th {
-    background-color: #f4f4f4;
-    font-weight: bold;
+    
+.transactionTable tr:nth-child(even) {
+    background-color: #a39c9cbb;
 }

@@ -1,8 +1,7 @@
 import s from './FriendListItem.module.css'
 
 
-export default function FriendListItem(friends) {
-    const {avatar, name, isOnline} = friends;
+export default function FriendListItem({ avatar, name, isOnline }) {
 
     return (
        <div className={s.friend}>

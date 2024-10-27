@@ -1,6 +1,3 @@
-import { useState } from 'react';
-import 'modern-normalize';
-import s from './App.module.css';
 import Profile from '../Profile/Profile';
 import FriendList from '../FriendList/FriendList';
 import TransactionHistory from '../TransactionHistory/TransactionHistory';
